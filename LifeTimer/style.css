@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url("images/Mountain.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container h2{
+    font-size: 2.5rem;
+}
+
+.settings{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.settings .AddDOB{
+    font-size: 1rem;
+    color: white;
+}
+
+.settings-content{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.settings-content input{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.settings-content button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: green;
+    border: none;
+}
+
+.time-container{
+    display: flex;
+    position: relative;
+    top: -12rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-container h2{
+    line-height: 60px;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.time-container div{
+    color: white;
+    font-size: 3rem;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
