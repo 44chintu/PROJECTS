@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>MyTicTacToe.com</li>
+        </ul>
+    </nav>
+
+    <div class="gamecontainer">
+        <div class="rules">
+            <h2>
+                TicTacToe Project
+            </h2>
+            <h4>The game is played on a grid that's 3 squares by 3 squares.</h4>
+            <p>
+                You are X , your friend (or the computer in this case) is O.
+            </p>
+            <p>
+                Players take turns putting their marks in empty squares.
+            </p>        
+            <p>
+                The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
+            </p>
+            <p>
+            When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
+        </p>
+        </div>
+        <div class="container">
+            <div class="box bt-0 bl-0"><span class="boxtext"><b></b></span></div>
+            <div class="box bt-0"><span class="boxtext"><b></b></span></div>
+            <div class="box bt-0 br-0"><span class="boxtext"><b></b></span></div>
+            <div class="box bl-0" b><span class="boxtext"><b></b></span></div>
+            <div class="box"><span class="boxtext"><b></b></span></div>
+            <div class="box br-0"><span class="boxtext"><b></b></span></div>
+            <div class="box bl-0 bb-0"><span class="boxtext"><b></b></span></div>
+            <div class="box bb-0"><span class="boxtext"><b></b></span></div>
+            <div class="box bb-0 br-0"><span class="boxtext"><b></b></span></div>
+        </div>
+        <div class="gameinfo">
+            <h1>Welcome to TicTacToe</h1>
+            <div class="content">
+                <span class="info">Turn of X</span>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="imgbox">
+                <img src="example.jpg" alt="strike" height="100vh" width="120vw" id="image">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
