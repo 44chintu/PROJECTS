@@ -1,0 +1,29 @@
+voice mail automation:
+our project makes the visually challenged people easier to access and handle their mail accounts.
+With the help of python and voice recognition we have developed a project where one can access their mail by composing , receving , making the mails read aloud by the system through voice commands.
+It is like having conversation directly to our inbox.
+
+Firstly users are prompted to login using their email and passwords, once logged in they can choose to compose or check their inboxes and also system can read out the messages they received. Users can verbally provide the receiver's mail id, subject, body. Users can logout or quit the application after their work.
+
+
+All of this is done using voice commands of the user.  
+
+We have used python libraries and modules like : 
+1) speech recognition
+2) pyttsx3
+3) BeautifulSoup
+4) imaplib
+5) email
+6) re
+7) smtplib
+8) tkinter
+
+Challenes:
+1) Establishing a secure connection to emainl accounts
+2) Misinterpretation of words
+
+Future Scope:
+1) AttachmentHandling
+2) Multi-Lingual Support
+3) Feedback from users
+
