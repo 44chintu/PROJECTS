@@ -1,0 +1,26 @@
+Bank management system is a digital banking application developed using java sql and jdbc technologies.
+this allows users to manage their bank accounts digitally and make transactions efficiently.
+users can perform all operations that can be performed in a physical bank.
+I have used JDBC framework to connect the java application with database and update and retrieve realtime data
+
+I have used java packages like: 
+AWT
+Swing
+SQL
+UTIL
+
+Chalenges:
+Database Connectivity
+GUI Component allignment
+Unique user authentication
+
+Future Scope:
+Enhanced user interface
+mobile app
+Two Factor Authentication
+Mobile Notifications
+Personalized recommendationsOnline bill paymentUser Feedback 
+
+API
+Framework
+
